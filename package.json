@@ -1,0 +1,14 @@
+{
+  "name": "simple-mongo-rest",
+  "version": "0.0.1",
+  "description": "Simple Mongodb REST API",
+  "main": "index.coffee",
+  "author": "Eunsub Kim",
+  "license": "ISC",
+  "devDependencies": {
+    "coffee-script": "^1.8.0"
+  },
+  "dependencies": {
+    "mongodb": "^1.4.28"
+  }
+}
