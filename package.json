@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Simple Mongodb REST API",
   "main": "index.coffee",
-  "author": "Eunsub Kim",
+  "author": "Eunsub Kim <eunsub@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "coffee-script": "^1.8.0"
