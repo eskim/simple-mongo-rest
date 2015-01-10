@@ -6,6 +6,10 @@ module.exports = (app, db, options = {})->
   prefix = options.prefix or "/api"
   console.log 'simple-mongo-rest mounted : ', prefix
 
+
+  if options.before_hook?
+    app.all("#{prefix}/*", options.before_hook)
+
   getQuery = (req)->
     if req.query.query?
       query = JSON.parse(req.query.query)
